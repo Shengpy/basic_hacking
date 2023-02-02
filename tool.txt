@@ -1,0 +1,31 @@
+split, pdfinfo, pdfimages, pdfcrack, pdfdetach, Keepass, Magic Numbers, hexed.it, foremost, Repair image online tool, 
+photorec, TestDisk, pngcheck, pngcsum, Registry Dumper, Dnscat2, pefile, Wireshark, Network Miner, PCAPNG, tcpflow, 
+PcapXray, qpdf, Audacity, sonic visualiser, ffmpeg strings, file, grep, scalpel, bgrep, hexdump, xxd, base64, xplico 
+framework, zsteg, gimp, Memory dump - volatility, ethscan, and many more.
+exiftool
+
+hexedit // dump hex of a file
+
+binwalk --dd='.*' wallet.jpeg
+Ta được file _wallet.jpg.extracted . Sau đó check file ta thấy có 2 file 0 và 2E11E
+Ta sẽ đổi đuôi file 2E11E thành .pdf
+steghide
+steghide embed -ef secret.txt -cf StegoCat.jpg -e none -Z
+steghide extract -sf stegoCat.jpg -xf extractSecret.txt
+
+wireshark
+Follow UDP Stream
+tshark -Y "mysql contains db_m3149.users" -r capture.pcap -Tjson --no-duplicate-keys > result.json
+
+file.wav
+Sound đang ở đạng Waveform ta chỉnh sang Spectrogram là ra flag
+
+rainbowcrack             decode hash
+
+domainfy -n eccountcil -t all  #retrieve all the domains along with their IP address
+
+ghunt     find info with email
+ghunt jasminenguyen12387@gmail.com
+
+domainfy -n eccountcil -t all  #retrieve all the domains along with their IP address
+jasminenguyen12387

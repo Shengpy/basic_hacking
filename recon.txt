@@ -1,0 +1,40 @@
+1 các thanh nhập thông tin trên front-end
+2 thêm các giá trị tại back-end
+- sửa thương thức GET -> ...
+- thêm thông tin biến số &test=test
+3 gõ tìm các file có thể xảy ra trên đường dẫn
+
+/.git/config
+massscan
+amass enum -v -src -ip -brute -min-for-recursive 2 -d cyberjutsu.com
+sublist3r -v -d cyberjutsu.com
+
+ssh root@128.199.190.141 -p2223
+Password: recon_cbjslab
+nmap -T4 -A -v
+rustscan -a 178.128.19.56 --range 0-65535 --ulimit 5000
+rustscan -a 127.0.0.1,0.0.0.0
+
+C:\Windows\System32\drivers\etc
+------------------------------parameters scan
+find path javascript
+gospider -s <url>
+arjun
+./arjun -u <url>
+
+-------------------------------directories
+gobuster
+ffuf ( writen by hacker )
+ffuf -H "Host: cms.cyberjutsu-lab.tech" -u http://178.128.19.56/FUZZ -w /root/wordlists/common.txt
+ffuf -w /root/wordlists/common.txt -u http://103.145.62.203/FUZZ -fc 403
+-e ".php"
+.php 
+.zip
+-ac  filter top famous directory
+
+mongo <IP>
+db.getMongo().getDBNames()
+show collections
+db.users.find()
+
+esc    ->   :wq 

@@ -1,0 +1,15 @@
+env
+cat /etc/environment
+cat /home/sheng/.bashrc           #the file the system will exec before OS open
+
+find medium2/ -type f -size +200c 2>/dev/null
+find hard1/ -type f -size -150c -perm 777 -user root -group medium3 2>/dev/null
+
+ssh -i id_rsa medium3@localhost
+ssh root@128.199.190.141 -p2223
+
+./medium4; echo $?  #regconize the errors
+
+openssl passwd <your_passwd>
+
+/etc/init.d/apache2 start

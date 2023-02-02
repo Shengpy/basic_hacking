@@ -1,0 +1,11 @@
+docker-compose up
+ps
+docker exec -ti 4a71b94c7180 bash
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456x@X -p 3307:3306 -d mysql:8.0.29
+cd /etc/apache2/
+
+//vmware
+bcdedit /set hypervisorlaunchtype off
+
+dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
+bcdedit /set hypervisorlaunchtype auto

